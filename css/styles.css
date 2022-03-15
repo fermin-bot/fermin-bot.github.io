@@ -88,8 +88,8 @@ body {
   background-image: url(yo.jpg);
   background-size: contain;
   background-repeat: no-repeat;
-  height: 50vh;
-  width: 23vw;
+  height: 0vh;
+  width: 0vw;
 }
 .sorpresa {
   height: 50vh;
