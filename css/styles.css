@@ -36,6 +36,10 @@ body {
   background-size:cover ;
   background-attachment:fixed; */
 }
+
+h1 {
+  display: inline;
+}
 /*
     Fondos:
     1
@@ -45,6 +49,10 @@ body {
     */
 
 /* Index */
+
+.presentacion {
+  margin-top: 16vh;
+}
 
 .present-card {
   display: flex;
@@ -58,21 +66,25 @@ body {
   overflow: hidden;
   justify-content: space-between;
   margin-top: 100px;
+  box-shadow: 0 0px 5px 10px rgb(0, 0, 0, 0.4);
 }
 
 .text-present {
   display: flexbox;
   margin: auto;
   margin: 20px;
-  width: 70hw;
-  /* overflow: hidden;
-  box-sizing: border-box; */
-  /* border: solid black; */
+  width: 70;
 }
 
-.photo-present {
+.fondo-Sor {
+  height: 50vh;
+  width: 30vw;
+  /* border: black solid; */
+}
+
+/* .photo-present {
   display: flexbox;
-  /* border: black  solid; */
+  border: black  solid;
   text-align: right;
   background-size: cover;
   background-position: center;
@@ -81,23 +93,28 @@ body {
   overflow: hidden;
 }
 
-.fondo-Sor {
-  background-size: cover;
+
+
+
+
+ background-size: cover;
   text-align: right;
   background-position: center;
   background-image: url(yo.jpg);
   background-size: contain;
   background-repeat: no-repeat;
-  height: 0vh;
-  width: 0vw;
-}
+
+
+
+
+
+
 .sorpresa {
   height: 50vh;
   width: 23vw;
   overflow: hidden;
-
   transition: 0.5s;
-  /* text-align: left; */
+  text-align: left;
 }
 .fondo-Sor:active {
   height: cover;
@@ -115,7 +132,8 @@ body {
   transition-delay: 5s;
   height: 1px;
   width: 1px;
-}
+} */
+*/
 
 /* #ffdb5881 */
 
@@ -158,14 +176,14 @@ body {
   margin: auto;
   width: 300px;
   height: 400x;
-  box-shadow: 0 0px 5px 2px rgb(0, 0, 0, 1);
+  box-shadow: 0px 0px 7px 7px rgb(0, 0, 0, 0.7);
   overflow: hidden;
   transition: 0.5s;
 }
 
 .sombra-box:hover {
   transform: translateY(-4px);
-  box-shadow: 0 1px 14px 2px rgb(0, 0, 0, 2);
+  box-shadow: 0 1px 14px 7px rgb(0, 0, 0, 0.7);
 }
 
 .marco-img {
@@ -275,7 +293,7 @@ body {
   width: 50%;
 }
 
-@media (max-width: 1540px) {
+@media (max-width: 1884px) {
   .fondo-tarjetas {
     grid-template-columns: repeat(2, 1fr);
     /* transition: 10s; */
