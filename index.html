@@ -18,7 +18,7 @@
 
         <!-- Navegador -->
 
-        <nav class="navbar navbar-inverse espaciado-arriba">
+        <nav class="navbar navbar-inverse">
             <div class="container-fluid">
               <table class="nav navbar-nav icons-size">
                     <tr>
@@ -29,21 +29,37 @@
               </table>
             </div>
           </nav>
-    <div class="center">
-        <section class="present-card center" >
+    <div class="presentacion">
+        <section class="present-card">
             <article>
                 <div class="text-present">
-                    <h1>Fermin-iso</h1>
-                    <h3>Implantacion de Sistemas Operativos</h3>
+                    <h1>Fermin</h1><h1 onclick="guion()">-</h1><h1>iso</h1>
+                    <h3>Implantación de Sistemas Operativos</h3>
                 </div>
             </article>
-            <article>
-                <div class="fondo-Sor">
 
-                    <img class="photo-present imagen" src="css/foto.png" >
-                </div>
+            <article class="fondo-Sor">
+                <img id="photo" width="540vh" height="475vh" src="foto.png">
             </article>
         </section>
     </div> 
+
+    <script type="text/javascript">
+
+        function guion(){
+
+            var fotoVar = document.getElementById("photo")
+
+            if (fotoVar.src.match("foto")){
+                fotoVar.src ="yo.jpg";
+            }
+                else{
+                    fotoVar.src ="foto.png";
+                }
+            
+            
+        }
+
+    </script>
 </body>
 </html>
