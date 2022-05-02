@@ -106,6 +106,7 @@ margin-top:10vh;
 
 .Background-Section {
   display: flex;
+  flex-wrap: wrap;
   min-height: 100vh;
   min-width: 95vw;
   align-items: center;
