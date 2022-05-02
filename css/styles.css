@@ -114,7 +114,7 @@ margin-top:10vh;
 }
 
 .fondo-tarjetas {
-  display: grid;
+  display: flex;
   flex-wrap: no wrap
   width: 65%;
   gap: 50px;
