@@ -115,7 +115,7 @@ margin-top:10vh;
 
 .fondo-tarjetas {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  flex-wrap: no wrap
   width: 65%;
   gap: 50px;
   margin: auto;
